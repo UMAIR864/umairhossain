@@ -19,6 +19,11 @@
         background-repeat: no-repeat;
         background-position: right;
     }
+    .last-banner{
+        background-image: url("developer-portfolio/exp-bg.png");
+        background-repeat: no-repeat;
+        background-position: left;
+    }
     section{
         height: 500px;
     padding-bottom: 200px;
