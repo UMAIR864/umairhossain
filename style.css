@@ -1,4 +1,6 @@
-    body{font-family: 'Alata', sans-serif;}
+    body{
+        margin: 0%;
+        font-family: 'Alata', sans-serif;}
     h1{font-size: 50px;}
     .orangered{
         color: orangered;}
@@ -9,3 +11,6 @@
     padding: 2px;
 }
 .half-width img{width: 100%;}
+.top-banner{background-image: url("developer-portfolio/top-banner.png");
+background-repeat: no-repeat;}
+section{height: 500px;}
