@@ -60,3 +60,5 @@
         border-image: linear-gradient(180deg, blue,rgb(95, 95, 250));
         border-image-slice: 1;
     }
+    footer p{text-align: center;
+    color: grey;}
