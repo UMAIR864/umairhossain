@@ -1,7 +1,9 @@
         body{
             margin: auto;
             font-family: 'Alata', sans-serif;}
-        h1{font-size: 50px;}
+        h1{
+            margin: 40px;
+            font-size: 50px;}
         .orangered{
             color: orangered;}
         .half-width{
@@ -10,6 +12,9 @@
         margin: 5px;
         padding: 2px;
     }
+    h2{margin: 40px;}
+    h3{margin: 40px;}
+    p{margin: 40px;}
     .half-width img{width: 100%;}
     .top-banner{background-image: url("developer-portfolio/top-banner.png");
     background-repeat: no-repeat;}
@@ -35,4 +40,12 @@
         border-radius: 6px;
         color: white;
         font-weight: 800;
+    }
+    .activitybox{
+        margin-left: 50px;
+        padding: 20pX;
+        padding-left: 40px;
+        box-shadow: 10px 10px 40px grey;
+        border-radius: 6px;
+        height: 50%;
     }
