@@ -1,65 +1,104 @@
-        body{
-            margin: auto;
-            font-family: 'Alata', sans-serif;}
-        h1{
-            margin: 40px;
-            font-size: 50px;}
-        .orangered{
-            color: orangered;}
-        .half-width{
-        width: 40%;
-        float: left;
-        margin: 5px;
-        padding: 2px;
-    }
-    h2{margin: 40px;}
-    h3{margin: 40px;}
-    p{margin: 40px;}
-    .half-width img{width: 100%;}
-    .top-banner{background-image: url("developer-portfolio/top-banner.png");
-    background-repeat: no-repeat;}
-    .middle-banner {
-        padding: 50px;;
-        background-image: url("developer-portfolio/dream-bg.png");
-        background-repeat: no-repeat;
-        background-position: right;
-    }
-    .last-banner{
-        background-image: url("developer-portfolio/exp-bg.png");
-        background-repeat: no-repeat;
-        background-position: left;
-    }
-    section{
-        height: 500px;
-    padding-bottom: 200px;
-    }
-    .link-button{
-        margin: 40px;
-        text-decoration: none;
-        background-image: linear-gradient(45deg, rgb(215, 83, 31), rgb(225, 80, 54));
-        padding: 10px 18px 10px 18px;
-        border-radius: 6px;
-        color: white;
-        font-weight: 800;
-    }
-    .activitybox{
-        background-color: aliceblue;
-        margin-left: 50px;
-        padding: 20pX;
-        padding-left: 40px;
-        box-shadow: 10px 10px 40px grey;
-        border-radius: 6px;
-        height: 50%;
-    }
-    #itclub{
-        border-left: 8px solid;
-        border-image: linear-gradient(180deg, rgb(205, 23, 23),rgb(255, 63, 63));
-        border-image-slice: 1;
-    }
-    #photographyclub{
-        border-left: 8px solid;
-        border-image: linear-gradient(180deg, blue,rgb(95, 95, 250));
-        border-image-slice: 1;
-    }
-    footer p{text-align: center;
-    color: grey;}
+body
+{
+    margin: auto;
+    font-family: 'Alata', sans-serif;
+font-family: 'Koulen', cursive;
+font-family: 'Staatliches', cursive;     
+}
+div
+{
+    margin: 20px;
+}
+h1
+{
+    margin: 0%;
+    font-weight: 600;
+    font-size: 4rem;
+}
+h2
+{
+    margin: 0%;
+}
+h3
+{
+    font-weight: lighter;
+    margin: 0%;
+}
+section{
+    height: 500px;
+padding-bottom: 200px;
+}   
+.txtblue
+{
+    color: blue;
+}
+.half-width
+{
+    width: 40%;
+    float: left;
+    margin: 5px;
+    padding: 2px;
+}
+.half-width img
+{
+    width: 90%;
+    margin: 0%;
+}
+.custommrg
+{
+    margin-left: 15rem;
+    margin-top: 15rem;
+}
+.custommrg2
+{
+    text-align: center;
+}
+.custommrg3
+{
+    margin: 3rem;
+}
+.custommrg4
+{
+    margin: 3rem;
+    text-align: center;
+}
+.logo
+{
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+.logo img
+{
+    width: 10rem;
+}
+.top-banner
+{
+    background-image: url("image/header-bg.png");
+    background-repeat: no-repeat;
+}
+.mid-banner
+{
+    background-image: url("image/mid-bg.png");
+    background-repeat: no-repeat;
+}
+.last-banner
+{
+    background-image: url("image/last-bg.png");
+    background-repeat: no-repeat;
+}
+.link-button
+{
+    margin: 0%;
+    text-decoration: none;
+    background-image: linear-gradient(120deg, rgb(38, 24, 237), rgb(19, 121, 237));
+    padding: 10px 18px 10px 18px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 100;
+}
+footer 
+{
+    text-align: center;
+    color: grey;
+    padding-bottom: 2rem;
+}
